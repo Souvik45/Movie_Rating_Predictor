@@ -1,4 +1,4 @@
-#🎬 IMDb Movie Rating Predictor
+# 🎬 IMDb Movie Rating Predictor
 
 This is a machine learning project that predicts the IMDb rating of a movie based on its metadata — such as director, main actors, budget, duration, and more. The app is built with Streamlit and uses a trained Support Vector Regression (SVR) model under the hood.
 
