@@ -4,7 +4,7 @@ This is a machine learning project that predicts the IMDb rating of a movie base
 
 ## 🚀 Live Demo
 
-> Coming Soon — You can deploy this on Streamlit Cloud or Hugging Face Spaces.
+> Coming Soon 
 
 
 
