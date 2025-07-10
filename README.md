@@ -2,13 +2,13 @@
 
 This is a machine learning project that predicts the IMDb rating of a movie based on its metadata — such as director, main actors, budget, duration, and more. The app is built with Streamlit and uses a trained Support Vector Regression (SVR) model under the hood.
 
-🚀 Live Demo
+## 🚀 Live Demo
 
 > Coming Soon — You can deploy this on Streamlit Cloud or Hugging Face Spaces.
 
 
 
-📌 Features
+## 📌 Features
 
 Predicts IMDb rating of any movie using:
 
@@ -21,7 +21,7 @@ Feature scaling using StandardScaler
 Clean and simple user interface with Streamlit
 
 
-📁 Project Structure
+## 📁 Project Structure
 
 📦 imdb-rating-predictor/
 ├── app.py                        # Streamlit app
@@ -38,7 +38,7 @@ Clean and simple user interface with Streamlit
 │   ├── director_encoder.pkl     # LabelEncoder for directors
 │   └── feature_columns.pkl      # List of features used during training
 
-⚙️ How to Run Locally
+## ⚙️ How to Run Locally
 
 1. Clone the repository
 git clone https://github.com/Souvik45/Movie_Rating_Predictor.git
@@ -48,7 +48,7 @@ pip install -r requirements.txt
 3. Run the app
 streamlit run app.py
 
-🧠 Model Info
+## 🧠 Model Info
 Algorithm: Support Vector Regressor (SVR)
 
 Preprocessing:
@@ -58,7 +58,7 @@ Categorical features (like actor and director names) encoded using LabelEncoder
 Trained on IMDb movie dataset with 28 features
 
 
-📊 Sample Input Fields
+## 📊 Sample Input Fields
 
 Director Name
 Lead Actor Name
@@ -69,12 +69,12 @@ Facebook Likes (actors, movie, director)
 Genre, Language, Country, Content Rating
 
 
-📌 Requirements
+## 📌 Requirements
 
 See requirements.txt or install manually:
 pip install streamlit pandas numpy scikit-learn joblib matplotlib seaborn
 
-🙌 Acknowledgements
+## 🙌 Acknowledgements
 
 Dataset Source: IMDb movie metadata
 Streamlit for app interface
